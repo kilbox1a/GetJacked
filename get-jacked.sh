@@ -19,7 +19,7 @@ pacmd load-module module-jack-source channels=2 source_name=spotify-in client_na
 pacmd load-module module-jack-sink channels=2 sink_name=spotify-out client_name=spotify-out connect=false
 
 # launch pulse applications
-PULSE_SINK=rhythmbox-out  &
+PULSE_SINK=rhythmbox-out rhythmbox  &
 PULSE_SINK=firefox-out firefox &
 
 # launch jack applications
