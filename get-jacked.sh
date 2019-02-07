@@ -23,4 +23,4 @@ PULSE_SINK=rhythmbox-out  &
 PULSE_SINK=firefox-out firefox &
 
 # launch jack applications
-~/bin/REAPER/reaper
+#~/bin/REAPER/reaper
